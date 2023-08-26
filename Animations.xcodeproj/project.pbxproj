@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */; };
+		B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */; };
+		B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */; };
+		B58BA9CF2A94CD6500186CA2 /* Scope_SequenceOnSingleVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9CE2A94CD6500186CA2 /* Scope_SequenceOnSingleVIew.swift */; };
+		B58BA9D12A94D90C00186CA2 /* Scope_ParentAndChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9D02A94D90C00186CA2 /* Scope_ParentAndChildren.swift */; };
+		B58BA9D32A95F3E000186CA2 /* Scope_CHangeSizeInParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9D22A95F3E000186CA2 /* Scope_CHangeSizeInParent.swift */; };
+		B58BA9D52A95F5E900186CA2 /* Scope_DifferentAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9D42A95F5E900186CA2 /* Scope_DifferentAnimations.swift */; };
+		B58BA9D72A95F81F00186CA2 /* Scope_NoAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9D62A95F81F00186CA2 /* Scope_NoAnimations.swift */; };
+		B58BA9D92A95FA4500186CA2 /* Scope_WithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9D82A95FA4500186CA2 /* Scope_WithAnimation.swift */; };
+		B58BA9DB2A95FC3D00186CA2 /* Scope_WithAnimation_CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9DA2A95FC3D00186CA2 /* Scope_WithAnimation_CustomAnimation.swift */; };
+		B58BA9DD2A95FD0200186CA2 /* Scope_WithAnimation_onSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9DC2A95FD0200186CA2 /* Scope_WithAnimation_onSingleView.swift */; };
+		B58BA9DF2A96009000186CA2 /* Scope_WithAnimation_MultipleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9DE2A96009000186CA2 /* Scope_WithAnimation_MultipleViews.swift */; };
+		B58BA9E12A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9E02A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift */; };
+		B58BA9E32A96072400186CA2 /* Scope_No_withAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9E22A96072400186CA2 /* Scope_No_withAnimation.swift */; };
+		B5ADF2E52A671E52009AEC76 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */; };
+		B5ADF2E72A671E52009AEC76 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E62A671E52009AEC76 /* Template.swift */; };
+		B5ADF2E92A671E53009AEC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ADF2E82A671E53009AEC76 /* Assets.xcassets */; };
+		B5ADF2EC2A671E53009AEC76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ADF2EB2A671E53009AEC76 /* Preview Assets.xcassets */; };
+		B5ADF2F32A6726A6009AEC76 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2F22A6726A6009AEC76 /* HeaderView.swift */; };
+		B5ADF2F52A6726FE009AEC76 /* Example_NoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2F42A6726FE009AEC76 /* Example_NoAnimation.swift */; };
+		B5ADF2F72A6729CD009AEC76 /* Challenge_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2F62A6729CD009AEC76 /* Challenge_1.swift */; };
+		B5ADF2F92A672C76009AEC76 /* Challange_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2F82A672C76009AEC76 /* Challange_2.swift */; };
+		B5ADF2FB2A672E55009AEC76 /* Animate_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2FA2A672E55009AEC76 /* Animate_Color.swift */; };
+		B5ADF2FF2A679260009AEC76 /* Animate_Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2FE2A679260009AEC76 /* Animate_Offset.swift */; };
+		B5ADF3012A6796B2009AEC76 /* Animate_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3002A6796B2009AEC76 /* Animate_Alignment.swift */; };
+		B5ADF3032A67D255009AEC76 /* Animate_GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3022A67D255009AEC76 /* Animate_GeometryReader.swift */; };
+		B5ADF3052A67D44B009AEC76 /* Animate_Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3042A67D44B009AEC76 /* Animate_Opacity.swift */; };
+		B5ADF3072A67D5C7009AEC76 /* Animate_RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3062A67D5C7009AEC76 /* Animate_RotationEffect.swift */; };
+		B5ADF3092A67D722009AEC76 /* Animate_RotationEfect_Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3082A67D722009AEC76 /* Animate_RotationEfect_Anchors.swift */; };
+		B5ADF30B2A67D8B5009AEC76 /* Animate_SizeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF30A2A67D8B5009AEC76 /* Animate_SizeFrame.swift */; };
+		B5ADF30D2A67EDB0009AEC76 /* Animate_Size_ScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF30C2A67EDB0009AEC76 /* Animate_Size_ScaleEffect.swift */; };
+		B5ADF30F2A67EF4B009AEC76 /* Animate_ScaleEffect_Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF30E2A67EF4B009AEC76 /* Animate_ScaleEffect_Anchors.swift */; };
+		B5ADF3112A67F140009AEC76 /* Animate_RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3102A67F140009AEC76 /* Animate_RoundedCorners.swift */; };
+		B5ADF3132A67F26C009AEC76 /* Animate_TextSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3122A67F26C009AEC76 /* Animate_TextSize.swift */; };
+		B5ADF3152A67F3A7009AEC76 /* Animate_Trim .swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3142A67F3A7009AEC76 /* Animate_Trim .swift */; };
+		B5ADF3172A67F558009AEC76 /* Challenge_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3162A67F558009AEC76 /* Challenge_3.swift */; };
+		B5ADF3192A67FF52009AEC76 /* Challange_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3182A67FF52009AEC76 /* Challange_4.swift */; };
+		B5ADF31B2A6805A8009AEC76 /* Challenge_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF31A2A6805A8009AEC76 /* Challenge_5.swift */; };
+		B5ADF3202A692A55009AEC76 /* Trigger_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF31F2A692A55009AEC76 /* Trigger_Button.swift */; };
+		B5ADF3222A693058009AEC76 /* Trigger_SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3212A693058009AEC76 /* Trigger_SegmentedControl.swift */; };
+		B5ADF3242A6937DE009AEC76 /* Trigger_Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3232A6937DE009AEC76 /* Trigger_Slider.swift */; };
+		B5ADF3262A694AFF009AEC76 /* Trigger_Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3252A694AFF009AEC76 /* Trigger_Stepper.swift */; };
+		B5ADF3282A694CBC009AEC76 /* Trigger_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3272A694CBC009AEC76 /* Trigger_Toggle.swift */; };
+		B5ADF32A2A694FAF009AEC76 /* Trigger_OnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3292A694FAF009AEC76 /* Trigger_OnAppear.swift */; };
+		B5ADF32C2A695204009AEC76 /* Trigger_OnDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF32B2A695204009AEC76 /* Trigger_OnDisappear.swift */; };
+		B5ADF33E2A7A60A9009AEC76 /* Trigger_Gesture_Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF33D2A7A60A9009AEC76 /* Trigger_Gesture_Drag.swift */; };
+		B5ADF3402A7A659B009AEC76 /* Trigger_Gesture_LongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF33F2A7A659B009AEC76 /* Trigger_Gesture_LongPress.swift */; };
+		B5ADF3422A7A6797009AEC76 /* Trigger_Gesture_Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3412A7A6797009AEC76 /* Trigger_Gesture_Tap.swift */; };
+		B5ADF3442A7A6B46009AEC76 /* Trigger_Gesture_Magnification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3432A7A6B46009AEC76 /* Trigger_Gesture_Magnification.swift */; };
+		B5ADF3552A8B5324009AEC76 /* Trigger_Gesture_Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3542A8B5324009AEC76 /* Trigger_Gesture_Rotation.swift */; };
+		B5ADF3572A8B5B8D009AEC76 /* Trigger_ScrollLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3562A8B5B8C009AEC76 /* Trigger_ScrollLocation.swift */; };
+		B5ADF3592A8B61B8009AEC76 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3582A8B61B8009AEC76 /* Exercise.swift */; };
+		B5ADF35B2A8B7EA9009AEC76 /* Challenge_Triggers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF35A2A8B7EA9009AEC76 /* Challenge_Triggers.swift */; };
+		B5ADF35F2A8CCEF5009AEC76 /* Duration_Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF35E2A8CCEF5009AEC76 /* Duration_Parameter.swift */; };
+		B5ADF3612A8CD18E009AEC76 /* Duration_Long_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3602A8CD18E009AEC76 /* Duration_Long_Example.swift */; };
+		B5ADF3642A8CD359009AEC76 /* DelayAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3632A8CD359009AEC76 /* DelayAnimations.swift */; };
+		B5ADF3662A8CD72B009AEC76 /* Delay_SequenceAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3652A8CD72B009AEC76 /* Delay_SequenceAnimations.swift */; };
+		B5ADF3692A8CDA5E009AEC76 /* Repeating_RepeatCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3682A8CDA5E009AEC76 /* Repeating_RepeatCount.swift */; };
+		B5ADF3992A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3982A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever.swift; sourceTree = "<group>"; };
+		B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever_AutoReverses.swift; sourceTree = "<group>"; };
+		B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_WithDelay.swift; sourceTree = "<group>"; };
+		B58BA9CE2A94CD6500186CA2 /* Scope_SequenceOnSingleVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_SequenceOnSingleVIew.swift; sourceTree = "<group>"; };
+		B58BA9D02A94D90C00186CA2 /* Scope_ParentAndChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_ParentAndChildren.swift; sourceTree = "<group>"; };
+		B58BA9D22A95F3E000186CA2 /* Scope_CHangeSizeInParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_CHangeSizeInParent.swift; sourceTree = "<group>"; };
+		B58BA9D42A95F5E900186CA2 /* Scope_DifferentAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_DifferentAnimations.swift; sourceTree = "<group>"; };
+		B58BA9D62A95F81F00186CA2 /* Scope_NoAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_NoAnimations.swift; sourceTree = "<group>"; };
+		B58BA9D82A95FA4500186CA2 /* Scope_WithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation.swift; sourceTree = "<group>"; };
+		B58BA9DA2A95FC3D00186CA2 /* Scope_WithAnimation_CustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_CustomAnimation.swift; sourceTree = "<group>"; };
+		B58BA9DC2A95FD0200186CA2 /* Scope_WithAnimation_onSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_onSingleView.swift; sourceTree = "<group>"; };
+		B58BA9DE2A96009000186CA2 /* Scope_WithAnimation_MultipleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_MultipleViews.swift; sourceTree = "<group>"; };
+		B58BA9E02A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_Sequencing.swift; sourceTree = "<group>"; };
+		B58BA9E22A96072400186CA2 /* Scope_No_withAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_No_withAnimation.swift; sourceTree = "<group>"; };
+		B5ADF2E12A671E52009AEC76 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
+		B5ADF2E62A671E52009AEC76 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		B5ADF2E82A671E53009AEC76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5ADF2EB2A671E53009AEC76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5ADF2F22A6726A6009AEC76 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B5ADF2F42A6726FE009AEC76 /* Example_NoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_NoAnimation.swift; sourceTree = "<group>"; };
+		B5ADF2F62A6729CD009AEC76 /* Challenge_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_1.swift; sourceTree = "<group>"; };
+		B5ADF2F82A672C76009AEC76 /* Challange_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challange_2.swift; sourceTree = "<group>"; };
+		B5ADF2FA2A672E55009AEC76 /* Animate_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Color.swift; sourceTree = "<group>"; };
+		B5ADF2FE2A679260009AEC76 /* Animate_Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Offset.swift; sourceTree = "<group>"; };
+		B5ADF3002A6796B2009AEC76 /* Animate_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Alignment.swift; sourceTree = "<group>"; };
+		B5ADF3022A67D255009AEC76 /* Animate_GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_GeometryReader.swift; sourceTree = "<group>"; };
+		B5ADF3042A67D44B009AEC76 /* Animate_Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Opacity.swift; sourceTree = "<group>"; };
+		B5ADF3062A67D5C7009AEC76 /* Animate_RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_RotationEffect.swift; sourceTree = "<group>"; };
+		B5ADF3082A67D722009AEC76 /* Animate_RotationEfect_Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_RotationEfect_Anchors.swift; sourceTree = "<group>"; };
+		B5ADF30A2A67D8B5009AEC76 /* Animate_SizeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_SizeFrame.swift; sourceTree = "<group>"; };
+		B5ADF30C2A67EDB0009AEC76 /* Animate_Size_ScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Size_ScaleEffect.swift; sourceTree = "<group>"; };
+		B5ADF30E2A67EF4B009AEC76 /* Animate_ScaleEffect_Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_ScaleEffect_Anchors.swift; sourceTree = "<group>"; };
+		B5ADF3102A67F140009AEC76 /* Animate_RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_RoundedCorners.swift; sourceTree = "<group>"; };
+		B5ADF3122A67F26C009AEC76 /* Animate_TextSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_TextSize.swift; sourceTree = "<group>"; };
+		B5ADF3142A67F3A7009AEC76 /* Animate_Trim .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animate_Trim .swift"; sourceTree = "<group>"; };
+		B5ADF3162A67F558009AEC76 /* Challenge_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_3.swift; sourceTree = "<group>"; };
+		B5ADF3182A67FF52009AEC76 /* Challange_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challange_4.swift; sourceTree = "<group>"; };
+		B5ADF31A2A6805A8009AEC76 /* Challenge_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_5.swift; sourceTree = "<group>"; };
+		B5ADF31F2A692A55009AEC76 /* Trigger_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_Button.swift; sourceTree = "<group>"; };
+		B5ADF3212A693058009AEC76 /* Trigger_SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_SegmentedControl.swift; sourceTree = "<group>"; };
+		B5ADF3232A6937DE009AEC76 /* Trigger_Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_Slider.swift; sourceTree = "<group>"; };
+		B5ADF3252A694AFF009AEC76 /* Trigger_Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_Stepper.swift; sourceTree = "<group>"; };
+		B5ADF3272A694CBC009AEC76 /* Trigger_Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_Toggle.swift; sourceTree = "<group>"; };
+		B5ADF3292A694FAF009AEC76 /* Trigger_OnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_OnAppear.swift; sourceTree = "<group>"; };
+		B5ADF32B2A695204009AEC76 /* Trigger_OnDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_OnDisappear.swift; sourceTree = "<group>"; };
+		B5ADF33D2A7A60A9009AEC76 /* Trigger_Gesture_Drag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_Gesture_Drag.swift; sourceTree = "<group>"; };
+		B5ADF33F2A7A659B009AEC76 /* Trigger_Gesture_LongPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_Gesture_LongPress.swift; sourceTree = "<group>"; };
+		B5ADF3412A7A6797009AEC76 /* Trigger_Gesture_Tap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_Gesture_Tap.swift; sourceTree = "<group>"; };
+		B5ADF3432A7A6B46009AEC76 /* Trigger_Gesture_Magnification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_Gesture_Magnification.swift; sourceTree = "<group>"; };
+		B5ADF3542A8B5324009AEC76 /* Trigger_Gesture_Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_Gesture_Rotation.swift; sourceTree = "<group>"; };
+		B5ADF3562A8B5B8C009AEC76 /* Trigger_ScrollLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_ScrollLocation.swift; sourceTree = "<group>"; };
+		B5ADF3582A8B61B8009AEC76 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		B5ADF35A2A8B7EA9009AEC76 /* Challenge_Triggers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_Triggers.swift; sourceTree = "<group>"; };
+		B5ADF35E2A8CCEF5009AEC76 /* Duration_Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration_Parameter.swift; sourceTree = "<group>"; };
+		B5ADF3602A8CD18E009AEC76 /* Duration_Long_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration_Long_Example.swift; sourceTree = "<group>"; };
+		B5ADF3632A8CD359009AEC76 /* DelayAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayAnimations.swift; sourceTree = "<group>"; };
+		B5ADF3652A8CD72B009AEC76 /* Delay_SequenceAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay_SequenceAnimations.swift; sourceTree = "<group>"; };
+		B5ADF3682A8CDA5E009AEC76 /* Repeating_RepeatCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatCount.swift; sourceTree = "<group>"; };
+		B5ADF3982A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatCount_AutoReverse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5ADF2DE2A671E52009AEC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B58BA9CD2A94CD4400186CA2 /* MultipleAnimations_singleView */ = {
+			isa = PBXGroup;
+			children = (
+				B58BA9CE2A94CD6500186CA2 /* Scope_SequenceOnSingleVIew.swift */,
+				B58BA9D02A94D90C00186CA2 /* Scope_ParentAndChildren.swift */,
+				B58BA9D22A95F3E000186CA2 /* Scope_CHangeSizeInParent.swift */,
+				B58BA9D42A95F5E900186CA2 /* Scope_DifferentAnimations.swift */,
+				B58BA9D62A95F81F00186CA2 /* Scope_NoAnimations.swift */,
+				B58BA9D82A95FA4500186CA2 /* Scope_WithAnimation.swift */,
+				B58BA9DA2A95FC3D00186CA2 /* Scope_WithAnimation_CustomAnimation.swift */,
+				B58BA9DC2A95FD0200186CA2 /* Scope_WithAnimation_onSingleView.swift */,
+				B58BA9DE2A96009000186CA2 /* Scope_WithAnimation_MultipleViews.swift */,
+				B58BA9E02A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift */,
+				B58BA9E22A96072400186CA2 /* Scope_No_withAnimation.swift */,
+			);
+			path = MultipleAnimations_singleView;
+			sourceTree = "<group>";
+		};
+		B5ADF2D82A671E52009AEC76 = {
+			isa = PBXGroup;
+			children = (
+				B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */,
+				B5ADF2E32A671E52009AEC76 /* Animations */,
+				B5ADF2E22A671E52009AEC76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5ADF2E22A671E52009AEC76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5ADF2E12A671E52009AEC76 /* Animations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5ADF2E32A671E52009AEC76 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B58BA9CD2A94CD4400186CA2 /* MultipleAnimations_singleView */,
+				B5ADF3672A8CDA0F009AEC76 /* Repeating&Reversing_Animations */,
+				B5ADF3622A8CD340009AEC76 /* Delay_Animations */,
+				B5ADF35D2A8CCE9E009AEC76 /* Animation_Duration */,
+				B5ADF31D2A692A12009AEC76 /* Trigers */,
+				B5ADF31C2A6929A0009AEC76 /* Basic Animations */,
+				B5ADF2E82A671E53009AEC76 /* Assets.xcassets */,
+				B5ADF2EA2A671E53009AEC76 /* Preview Content */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		B5ADF2EA2A671E53009AEC76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5ADF2EB2A671E53009AEC76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5ADF31C2A6929A0009AEC76 /* Basic Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B5ADF3002A6796B2009AEC76 /* Animate_Alignment.swift */,
+				B5ADF2FA2A672E55009AEC76 /* Animate_Color.swift */,
+				B5ADF3022A67D255009AEC76 /* Animate_GeometryReader.swift */,
+				B5ADF2FE2A679260009AEC76 /* Animate_Offset.swift */,
+				B5ADF3042A67D44B009AEC76 /* Animate_Opacity.swift */,
+				B5ADF3082A67D722009AEC76 /* Animate_RotationEfect_Anchors.swift */,
+				B5ADF3062A67D5C7009AEC76 /* Animate_RotationEffect.swift */,
+				B5ADF3102A67F140009AEC76 /* Animate_RoundedCorners.swift */,
+				B5ADF30E2A67EF4B009AEC76 /* Animate_ScaleEffect_Anchors.swift */,
+				B5ADF30C2A67EDB0009AEC76 /* Animate_Size_ScaleEffect.swift */,
+				B5ADF30A2A67D8B5009AEC76 /* Animate_SizeFrame.swift */,
+				B5ADF3122A67F26C009AEC76 /* Animate_TextSize.swift */,
+				B5ADF3142A67F3A7009AEC76 /* Animate_Trim .swift */,
+				B5ADF2F82A672C76009AEC76 /* Challange_2.swift */,
+				B5ADF3182A67FF52009AEC76 /* Challange_4.swift */,
+				B5ADF2F62A6729CD009AEC76 /* Challenge_1.swift */,
+				B5ADF3162A67F558009AEC76 /* Challenge_3.swift */,
+				B5ADF31A2A6805A8009AEC76 /* Challenge_5.swift */,
+				B5ADF2F42A6726FE009AEC76 /* Example_NoAnimation.swift */,
+				B5ADF2F22A6726A6009AEC76 /* HeaderView.swift */,
+				B5ADF2E62A671E52009AEC76 /* Template.swift */,
+			);
+			path = "Basic Animations";
+			sourceTree = "<group>";
+		};
+		B5ADF31D2A692A12009AEC76 /* Trigers */ = {
+			isa = PBXGroup;
+			children = (
+				B5ADF31F2A692A55009AEC76 /* Trigger_Button.swift */,
+				B5ADF3212A693058009AEC76 /* Trigger_SegmentedControl.swift */,
+				B5ADF3232A6937DE009AEC76 /* Trigger_Slider.swift */,
+				B5ADF3252A694AFF009AEC76 /* Trigger_Stepper.swift */,
+				B5ADF3272A694CBC009AEC76 /* Trigger_Toggle.swift */,
+				B5ADF3292A694FAF009AEC76 /* Trigger_OnAppear.swift */,
+				B5ADF32B2A695204009AEC76 /* Trigger_OnDisappear.swift */,
+				B5ADF33D2A7A60A9009AEC76 /* Trigger_Gesture_Drag.swift */,
+				B5ADF33F2A7A659B009AEC76 /* Trigger_Gesture_LongPress.swift */,
+				B5ADF3412A7A6797009AEC76 /* Trigger_Gesture_Tap.swift */,
+				B5ADF3432A7A6B46009AEC76 /* Trigger_Gesture_Magnification.swift */,
+				B5ADF3542A8B5324009AEC76 /* Trigger_Gesture_Rotation.swift */,
+				B5ADF3562A8B5B8C009AEC76 /* Trigger_ScrollLocation.swift */,
+				B5ADF3582A8B61B8009AEC76 /* Exercise.swift */,
+				B5ADF35A2A8B7EA9009AEC76 /* Challenge_Triggers.swift */,
+			);
+			path = Trigers;
+			sourceTree = "<group>";
+		};
+		B5ADF35D2A8CCE9E009AEC76 /* Animation_Duration */ = {
+			isa = PBXGroup;
+			children = (
+				B5ADF35E2A8CCEF5009AEC76 /* Duration_Parameter.swift */,
+				B5ADF3602A8CD18E009AEC76 /* Duration_Long_Example.swift */,
+			);
+			path = Animation_Duration;
+			sourceTree = "<group>";
+		};
+		B5ADF3622A8CD340009AEC76 /* Delay_Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B5ADF3632A8CD359009AEC76 /* DelayAnimations.swift */,
+				B5ADF3652A8CD72B009AEC76 /* Delay_SequenceAnimations.swift */,
+			);
+			path = Delay_Animations;
+			sourceTree = "<group>";
+		};
+		B5ADF3672A8CDA0F009AEC76 /* Repeating&Reversing_Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B5ADF3682A8CDA5E009AEC76 /* Repeating_RepeatCount.swift */,
+				B5ADF3982A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift */,
+				B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */,
+				B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */,
+				B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */,
+			);
+			path = "Repeating&Reversing_Animations";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5ADF2E02A671E52009AEC76 /* Animations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5ADF2EF2A671E53009AEC76 /* Build configuration list for PBXNativeTarget "Animations" */;
+			buildPhases = (
+				B5ADF2DD2A671E52009AEC76 /* Sources */,
+				B5ADF2DE2A671E52009AEC76 /* Frameworks */,
+				B5ADF2DF2A671E52009AEC76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animations;
+			productName = Animations;
+			productReference = B5ADF2E12A671E52009AEC76 /* Animations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5ADF2D92A671E52009AEC76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B5ADF2E02A671E52009AEC76 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B5ADF2DC2A671E52009AEC76 /* Build configuration list for PBXProject "Animations" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5ADF2D82A671E52009AEC76;
+			productRefGroup = B5ADF2E22A671E52009AEC76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5ADF2E02A671E52009AEC76 /* Animations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5ADF2DF2A671E52009AEC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ADF2EC2A671E53009AEC76 /* Preview Assets.xcassets in Resources */,
+				B5ADF2E92A671E53009AEC76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5ADF2DD2A671E52009AEC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ADF3052A67D44B009AEC76 /* Animate_Opacity.swift in Sources */,
+				B5ADF32C2A695204009AEC76 /* Trigger_OnDisappear.swift in Sources */,
+				B5ADF3612A8CD18E009AEC76 /* Duration_Long_Example.swift in Sources */,
+				B5ADF3092A67D722009AEC76 /* Animate_RotationEfect_Anchors.swift in Sources */,
+				B5ADF2F92A672C76009AEC76 /* Challange_2.swift in Sources */,
+				B5ADF3112A67F140009AEC76 /* Animate_RoundedCorners.swift in Sources */,
+				B5ADF3572A8B5B8D009AEC76 /* Trigger_ScrollLocation.swift in Sources */,
+				B5ADF2F52A6726FE009AEC76 /* Example_NoAnimation.swift in Sources */,
+				B5ADF30F2A67EF4B009AEC76 /* Animate_ScaleEffect_Anchors.swift in Sources */,
+				B5ADF3032A67D255009AEC76 /* Animate_GeometryReader.swift in Sources */,
+				B5ADF3642A8CD359009AEC76 /* DelayAnimations.swift in Sources */,
+				B5ADF3132A67F26C009AEC76 /* Animate_TextSize.swift in Sources */,
+				B5ADF3402A7A659B009AEC76 /* Trigger_Gesture_LongPress.swift in Sources */,
+				B5ADF3422A7A6797009AEC76 /* Trigger_Gesture_Tap.swift in Sources */,
+				B58BA9DF2A96009000186CA2 /* Scope_WithAnimation_MultipleViews.swift in Sources */,
+				B5ADF2E72A671E52009AEC76 /* Template.swift in Sources */,
+				B5ADF3552A8B5324009AEC76 /* Trigger_Gesture_Rotation.swift in Sources */,
+				B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */,
+				B5ADF3222A693058009AEC76 /* Trigger_SegmentedControl.swift in Sources */,
+				B58BA9E32A96072400186CA2 /* Scope_No_withAnimation.swift in Sources */,
+				B5ADF3992A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift in Sources */,
+				B5ADF32A2A694FAF009AEC76 /* Trigger_OnAppear.swift in Sources */,
+				B5ADF3012A6796B2009AEC76 /* Animate_Alignment.swift in Sources */,
+				B58BA9D52A95F5E900186CA2 /* Scope_DifferentAnimations.swift in Sources */,
+				B5ADF3592A8B61B8009AEC76 /* Exercise.swift in Sources */,
+				B5ADF2F72A6729CD009AEC76 /* Challenge_1.swift in Sources */,
+				B5ADF30B2A67D8B5009AEC76 /* Animate_SizeFrame.swift in Sources */,
+				B5ADF3192A67FF52009AEC76 /* Challange_4.swift in Sources */,
+				B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */,
+				B5ADF2FF2A679260009AEC76 /* Animate_Offset.swift in Sources */,
+				B58BA9D32A95F3E000186CA2 /* Scope_CHangeSizeInParent.swift in Sources */,
+				B5ADF3442A7A6B46009AEC76 /* Trigger_Gesture_Magnification.swift in Sources */,
+				B5ADF3662A8CD72B009AEC76 /* Delay_SequenceAnimations.swift in Sources */,
+				B5ADF3692A8CDA5E009AEC76 /* Repeating_RepeatCount.swift in Sources */,
+				B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */,
+				B58BA9DD2A95FD0200186CA2 /* Scope_WithAnimation_onSingleView.swift in Sources */,
+				B5ADF35B2A8B7EA9009AEC76 /* Challenge_Triggers.swift in Sources */,
+				B5ADF2F32A6726A6009AEC76 /* HeaderView.swift in Sources */,
+				B5ADF35F2A8CCEF5009AEC76 /* Duration_Parameter.swift in Sources */,
+				B5ADF3282A694CBC009AEC76 /* Trigger_Toggle.swift in Sources */,
+				B5ADF2E52A671E52009AEC76 /* AnimationsApp.swift in Sources */,
+				B5ADF33E2A7A60A9009AEC76 /* Trigger_Gesture_Drag.swift in Sources */,
+				B5ADF3072A67D5C7009AEC76 /* Animate_RotationEffect.swift in Sources */,
+				B5ADF3202A692A55009AEC76 /* Trigger_Button.swift in Sources */,
+				B58BA9D12A94D90C00186CA2 /* Scope_ParentAndChildren.swift in Sources */,
+				B58BA9DB2A95FC3D00186CA2 /* Scope_WithAnimation_CustomAnimation.swift in Sources */,
+				B58BA9E12A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift in Sources */,
+				B58BA9D72A95F81F00186CA2 /* Scope_NoAnimations.swift in Sources */,
+				B5ADF3152A67F3A7009AEC76 /* Animate_Trim .swift in Sources */,
+				B5ADF3242A6937DE009AEC76 /* Trigger_Slider.swift in Sources */,
+				B5ADF3172A67F558009AEC76 /* Challenge_3.swift in Sources */,
+				B58BA9CF2A94CD6500186CA2 /* Scope_SequenceOnSingleVIew.swift in Sources */,
+				B5ADF31B2A6805A8009AEC76 /* Challenge_5.swift in Sources */,
+				B5ADF2FB2A672E55009AEC76 /* Animate_Color.swift in Sources */,
+				B58BA9D92A95FA4500186CA2 /* Scope_WithAnimation.swift in Sources */,
+				B5ADF3262A694AFF009AEC76 /* Trigger_Stepper.swift in Sources */,
+				B5ADF30D2A67EDB0009AEC76 /* Animate_Size_ScaleEffect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5ADF2ED2A671E53009AEC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5ADF2EE2A671E53009AEC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5ADF2F02A671E53009AEC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animations/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bashubb.Animations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5ADF2F12A671E53009AEC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animations/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bashubb.Animations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5ADF2DC2A671E52009AEC76 /* Build configuration list for PBXProject "Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5ADF2ED2A671E53009AEC76 /* Debug */,
+				B5ADF2EE2A671E53009AEC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5ADF2EF2A671E53009AEC76 /* Build configuration list for PBXNativeTarget "Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5ADF2F02A671E53009AEC76 /* Debug */,
+				B5ADF2F12A671E53009AEC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5ADF2D92A671E52009AEC76 /* Project object */;
+}
