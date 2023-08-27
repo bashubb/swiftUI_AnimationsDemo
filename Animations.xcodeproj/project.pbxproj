@@ -21,6 +21,7 @@
 		B58BA9DF2A96009000186CA2 /* Scope_WithAnimation_MultipleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9DE2A96009000186CA2 /* Scope_WithAnimation_MultipleViews.swift */; };
 		B58BA9E12A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9E02A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift */; };
 		B58BA9E32A96072400186CA2 /* Scope_No_withAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9E22A96072400186CA2 /* Scope_No_withAnimation.swift */; };
+		B58BAA022A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BAA012A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift */; };
 		B5ADF2E52A671E52009AEC76 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */; };
 		B5ADF2E72A671E52009AEC76 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E62A671E52009AEC76 /* Template.swift */; };
 		B5ADF2E92A671E53009AEC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ADF2E82A671E53009AEC76 /* Assets.xcassets */; };
@@ -83,6 +84,7 @@
 		B58BA9DE2A96009000186CA2 /* Scope_WithAnimation_MultipleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_MultipleViews.swift; sourceTree = "<group>"; };
 		B58BA9E02A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_Sequencing.swift; sourceTree = "<group>"; };
 		B58BA9E22A96072400186CA2 /* Scope_No_withAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_No_withAnimation.swift; sourceTree = "<group>"; };
+		B58BAA012A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_Sequencing_SameView.swift; sourceTree = "<group>"; };
 		B5ADF2E12A671E52009AEC76 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		B5ADF2E62A671E52009AEC76 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				B58BA9DE2A96009000186CA2 /* Scope_WithAnimation_MultipleViews.swift */,
 				B58BA9E02A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift */,
 				B58BA9E22A96072400186CA2 /* Scope_No_withAnimation.swift */,
+				B58BAA012A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift */,
 			);
 			path = MultipleAnimations_singleView;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				B5ADF3192A67FF52009AEC76 /* Challange_4.swift in Sources */,
 				B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */,
 				B5ADF2FF2A679260009AEC76 /* Animate_Offset.swift in Sources */,
+				B58BAA022A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift in Sources */,
 				B58BA9D32A95F3E000186CA2 /* Scope_CHangeSizeInParent.swift in Sources */,
 				B5ADF3442A7A6B46009AEC76 /* Trigger_Gesture_Magnification.swift in Sources */,
 				B5ADF3662A8CD72B009AEC76 /* Delay_SequenceAnimations.swift in Sources */,
