@@ -22,6 +22,7 @@
 		B58BA9E12A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9E02A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift */; };
 		B58BA9E32A96072400186CA2 /* Scope_No_withAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9E22A96072400186CA2 /* Scope_No_withAnimation.swift */; };
 		B58BAA022A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BAA012A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift */; };
+		B58BAA052A9B3A7F00186CA2 /* Speed_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BAA042A9B3A7F00186CA2 /* Speed_Intro.swift */; };
 		B5ADF2E52A671E52009AEC76 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */; };
 		B5ADF2E72A671E52009AEC76 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E62A671E52009AEC76 /* Template.swift */; };
 		B5ADF2E92A671E53009AEC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ADF2E82A671E53009AEC76 /* Assets.xcassets */; };
@@ -85,6 +86,7 @@
 		B58BA9E02A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_Sequencing.swift; sourceTree = "<group>"; };
 		B58BA9E22A96072400186CA2 /* Scope_No_withAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_No_withAnimation.swift; sourceTree = "<group>"; };
 		B58BAA012A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope_WithAnimation_Sequencing_SameView.swift; sourceTree = "<group>"; };
+		B58BAA042A9B3A7F00186CA2 /* Speed_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speed_Intro.swift; sourceTree = "<group>"; };
 		B5ADF2E12A671E52009AEC76 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		B5ADF2E62A671E52009AEC76 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
@@ -163,6 +165,14 @@
 			path = MultipleAnimations_singleView;
 			sourceTree = "<group>";
 		};
+		B58BAA032A9B3A4A00186CA2 /* MultiplyingAnimationSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				B58BAA042A9B3A7F00186CA2 /* Speed_Intro.swift */,
+			);
+			path = MultiplyingAnimationSpeed;
+			sourceTree = "<group>";
+		};
 		B5ADF2D82A671E52009AEC76 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +193,7 @@
 		B5ADF2E32A671E52009AEC76 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				B58BAA032A9B3A4A00186CA2 /* MultiplyingAnimationSpeed */,
 				B58BA9CD2A94CD4400186CA2 /* MultipleAnimations_singleView */,
 				B5ADF3672A8CDA0F009AEC76 /* Repeating&Reversing_Animations */,
 				B5ADF3622A8CD340009AEC76 /* Delay_Animations */,
@@ -398,6 +409,7 @@
 				B5ADF33E2A7A60A9009AEC76 /* Trigger_Gesture_Drag.swift in Sources */,
 				B5ADF3072A67D5C7009AEC76 /* Animate_RotationEffect.swift in Sources */,
 				B5ADF3202A692A55009AEC76 /* Trigger_Button.swift in Sources */,
+				B58BAA052A9B3A7F00186CA2 /* Speed_Intro.swift in Sources */,
 				B58BA9D12A94D90C00186CA2 /* Scope_ParentAndChildren.swift in Sources */,
 				B58BA9DB2A95FC3D00186CA2 /* Scope_WithAnimation_CustomAnimation.swift in Sources */,
 				B58BA9E12A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift in Sources */,
