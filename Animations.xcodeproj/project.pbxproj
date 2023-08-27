@@ -25,6 +25,7 @@
 		B58BAA052A9B3A7F00186CA2 /* Speed_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BAA042A9B3A7F00186CA2 /* Speed_Intro.swift */; };
 		B58BAA082A9B3CB300186CA2 /* Value_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BAA072A9B3CB300186CA2 /* Value_Introduction.swift */; };
 		B58BAA0A2A9B3F3400186CA2 /* Value_ShowHideExpample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BAA092A9B3F3400186CA2 /* Value_ShowHideExpample.swift */; };
+		B58BAA0C2A9B44DD00186CA2 /* TernaryCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BAA0B2A9B44DD00186CA2 /* TernaryCondition.swift */; };
 		B5ADF2E52A671E52009AEC76 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */; };
 		B5ADF2E72A671E52009AEC76 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E62A671E52009AEC76 /* Template.swift */; };
 		B5ADF2E92A671E53009AEC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ADF2E82A671E53009AEC76 /* Assets.xcassets */; };
@@ -91,6 +92,7 @@
 		B58BAA042A9B3A7F00186CA2 /* Speed_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speed_Intro.swift; sourceTree = "<group>"; };
 		B58BAA072A9B3CB300186CA2 /* Value_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value_Introduction.swift; sourceTree = "<group>"; };
 		B58BAA092A9B3F3400186CA2 /* Value_ShowHideExpample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value_ShowHideExpample.swift; sourceTree = "<group>"; };
+		B58BAA0B2A9B44DD00186CA2 /* TernaryCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryCondition.swift; sourceTree = "<group>"; };
 		B5ADF2E12A671E52009AEC76 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		B5ADF2E62A671E52009AEC76 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			children = (
 				B58BAA072A9B3CB300186CA2 /* Value_Introduction.swift */,
 				B58BAA092A9B3F3400186CA2 /* Value_ShowHideExpample.swift */,
+				B58BAA0B2A9B44DD00186CA2 /* TernaryCondition.swift */,
 			);
 			path = "Turning Animations On&Off";
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				B5ADF3992A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift in Sources */,
 				B5ADF32A2A694FAF009AEC76 /* Trigger_OnAppear.swift in Sources */,
 				B5ADF3012A6796B2009AEC76 /* Animate_Alignment.swift in Sources */,
+				B58BAA0C2A9B44DD00186CA2 /* TernaryCondition.swift in Sources */,
 				B58BA9D52A95F5E900186CA2 /* Scope_DifferentAnimations.swift in Sources */,
 				B5ADF3592A8B61B8009AEC76 /* Exercise.swift in Sources */,
 				B5ADF2F72A6729CD009AEC76 /* Challenge_1.swift in Sources */,
