@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5411C782AA3B759003C18A2 /* Spring_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C772AA3B759003C18A2 /* Spring_Intro.swift */; };
+		B5411C7A2AA3B836003C18A2 /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C792AA3B836003C18A2 /* TitleText.swift */; };
+		B5411C7C2AA3BA2A003C18A2 /* SubtitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */; };
+		B5411C7E2AA3BAAC003C18A2 /* BannerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C7D2AA3BAAC003C18A2 /* BannerText.swift */; };
 		B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */; };
 		B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */; };
 		B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */; };
@@ -77,6 +81,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5411C772AA3B759003C18A2 /* Spring_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_Intro.swift; sourceTree = "<group>"; };
+		B5411C792AA3B836003C18A2 /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
+		B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleText.swift; sourceTree = "<group>"; };
+		B5411C7D2AA3BAAC003C18A2 /* BannerText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerText.swift; sourceTree = "<group>"; };
 		B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever.swift; sourceTree = "<group>"; };
 		B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever_AutoReverses.swift; sourceTree = "<group>"; };
 		B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_WithDelay.swift; sourceTree = "<group>"; };
@@ -97,7 +105,7 @@
 		B58BAA092A9B3F3400186CA2 /* Value_ShowHideExpample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value_ShowHideExpample.swift; sourceTree = "<group>"; };
 		B58BAA0B2A9B44DD00186CA2 /* TernaryCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryCondition.swift; sourceTree = "<group>"; };
 		B58BAA0F2A9B49B600186CA2 /* Exercise1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1.swift; sourceTree = "<group>"; };
-		B58BAA112A9B511A00186CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B58BAA112A9B511A00186CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58BAA122A9B5CC000186CA2 /* Challenge6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge6.swift; sourceTree = "<group>"; };
 		B58BAA142A9B64E600186CA2 /* Challenge7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge7.swift; sourceTree = "<group>"; };
 		B5ADF2E12A671E52009AEC76 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +167,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5411C762AA3B72A003C18A2 /* The Spring Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B5411C772AA3B759003C18A2 /* Spring_Intro.swift */,
+				B5411C792AA3B836003C18A2 /* TitleText.swift */,
+				B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */,
+				B5411C7D2AA3BAAC003C18A2 /* BannerText.swift */,
+			);
+			path = "The Spring Animation";
+			sourceTree = "<group>";
+		};
 		B58BA9CD2A94CD4400186CA2 /* MultipleAnimations_singleView */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				B58BAA112A9B511A00186CA2 /* Info.plist */,
+				B5411C762AA3B72A003C18A2 /* The Spring Animation */,
 				B58BAA062A9B3C9400186CA2 /* Turning Animations On&Off */,
 				B58BAA032A9B3A4A00186CA2 /* MultiplyingAnimationSpeed */,
 				B58BA9CD2A94CD4400186CA2 /* MultipleAnimations_singleView */,
@@ -409,6 +429,7 @@
 				B5ADF3422A7A6797009AEC76 /* Trigger_Gesture_Tap.swift in Sources */,
 				B58BA9DF2A96009000186CA2 /* Scope_WithAnimation_MultipleViews.swift in Sources */,
 				B58BAA0A2A9B3F3400186CA2 /* Value_ShowHideExpample.swift in Sources */,
+				B5411C782AA3B759003C18A2 /* Spring_Intro.swift in Sources */,
 				B5ADF2E72A671E52009AEC76 /* Template.swift in Sources */,
 				B5ADF3552A8B5324009AEC76 /* Trigger_Gesture_Rotation.swift in Sources */,
 				B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */,
@@ -426,12 +447,14 @@
 				B5ADF3192A67FF52009AEC76 /* Challange_4.swift in Sources */,
 				B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */,
 				B5ADF2FF2A679260009AEC76 /* Animate_Offset.swift in Sources */,
+				B5411C7A2AA3B836003C18A2 /* TitleText.swift in Sources */,
 				B58BAA022A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift in Sources */,
 				B58BA9D32A95F3E000186CA2 /* Scope_CHangeSizeInParent.swift in Sources */,
 				B5ADF3442A7A6B46009AEC76 /* Trigger_Gesture_Magnification.swift in Sources */,
 				B5ADF3662A8CD72B009AEC76 /* Delay_SequenceAnimations.swift in Sources */,
 				B58BAA152A9B64E600186CA2 /* Challenge7.swift in Sources */,
 				B5ADF3692A8CDA5E009AEC76 /* Repeating_RepeatCount.swift in Sources */,
+				B5411C7E2AA3BAAC003C18A2 /* BannerText.swift in Sources */,
 				B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */,
 				B58BA9DD2A95FD0200186CA2 /* Scope_WithAnimation_onSingleView.swift in Sources */,
 				B5ADF35B2A8B7EA9009AEC76 /* Challenge_Triggers.swift in Sources */,
@@ -440,6 +463,7 @@
 				B5ADF3282A694CBC009AEC76 /* Trigger_Toggle.swift in Sources */,
 				B58BAA132A9B5CC000186CA2 /* Challenge6.swift in Sources */,
 				B5ADF2E52A671E52009AEC76 /* AnimationsApp.swift in Sources */,
+				B5411C7C2AA3BA2A003C18A2 /* SubtitleText.swift in Sources */,
 				B5ADF33E2A7A60A9009AEC76 /* Trigger_Gesture_Drag.swift in Sources */,
 				B5ADF3072A67D5C7009AEC76 /* Animate_RotationEffect.swift in Sources */,
 				B5ADF3202A692A55009AEC76 /* Trigger_Button.swift in Sources */,
