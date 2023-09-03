@@ -15,6 +15,7 @@
 		B5411C822AA4771B003C18A2 /* Spring_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C812AA4771B003C18A2 /* Spring_Response.swift */; };
 		B5411C842AA49142003C18A2 /* Spring_BledDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C832AA49142003C18A2 /* Spring_BledDuration.swift */; };
 		B5411C862AA500D3003C18A2 /* Interactive_Comparsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C852AA500D3003C18A2 /* Interactive_Comparsion.swift */; };
+		B5411C892AA50BC9003C18A2 /* Interactive_Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C882AA50BC9003C18A2 /* Interactive_Popup.swift */; };
 		B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */; };
 		B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */; };
 		B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */; };
@@ -93,6 +94,7 @@
 		B5411C812AA4771B003C18A2 /* Spring_Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_Response.swift; sourceTree = "<group>"; };
 		B5411C832AA49142003C18A2 /* Spring_BledDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_BledDuration.swift; sourceTree = "<group>"; };
 		B5411C852AA500D3003C18A2 /* Interactive_Comparsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_Comparsion.swift; sourceTree = "<group>"; };
+		B5411C882AA50BC9003C18A2 /* Interactive_Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_Popup.swift; sourceTree = "<group>"; };
 		B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever.swift; sourceTree = "<group>"; };
 		B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever_AutoReverses.swift; sourceTree = "<group>"; };
 		B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_WithDelay.swift; sourceTree = "<group>"; };
@@ -185,9 +187,17 @@
 				B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */,
 				B5411C7D2AA3BAAC003C18A2 /* BannerText.swift */,
 				B5411C832AA49142003C18A2 /* Spring_BledDuration.swift */,
-				B5411C852AA500D3003C18A2 /* Interactive_Comparsion.swift */,
 			);
 			path = "The Spring Animation";
+			sourceTree = "<group>";
+		};
+		B5411C872AA50319003C18A2 /* Interactive Spring */ = {
+			isa = PBXGroup;
+			children = (
+				B5411C852AA500D3003C18A2 /* Interactive_Comparsion.swift */,
+				B5411C882AA50BC9003C18A2 /* Interactive_Popup.swift */,
+			);
+			path = "Interactive Spring";
 			sourceTree = "<group>";
 		};
 		B58BA9CD2A94CD4400186CA2 /* MultipleAnimations_singleView */ = {
@@ -251,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				B58BAA112A9B511A00186CA2 /* Info.plist */,
+				B5411C872AA50319003C18A2 /* Interactive Spring */,
 				B5411C762AA3B72A003C18A2 /* The Spring Animation */,
 				B58BAA062A9B3C9400186CA2 /* Turning Animations On&Off */,
 				B58BAA032A9B3A4A00186CA2 /* MultiplyingAnimationSpeed */,
@@ -489,6 +500,7 @@
 				B58BA9E12A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift in Sources */,
 				B58BA9D72A95F81F00186CA2 /* Scope_NoAnimations.swift in Sources */,
 				B5ADF3152A67F3A7009AEC76 /* Animate_Trim .swift in Sources */,
+				B5411C892AA50BC9003C18A2 /* Interactive_Popup.swift in Sources */,
 				B5ADF3242A6937DE009AEC76 /* Trigger_Slider.swift in Sources */,
 				B5ADF3172A67F558009AEC76 /* Challenge_3.swift in Sources */,
 				B58BA9CF2A94CD6500186CA2 /* Scope_SequenceOnSingleVIew.swift in Sources */,
