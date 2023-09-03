@@ -26,13 +26,13 @@ struct Spring_BledDuration: View {
                     .fill(Color("Gold"))
                     .padding(3)
                     .scaleEffect(change ? 1 : 0.2)
-                    .animation(.spring(response: response, blendDuration: blendDuration), value: change)
+                    .animation(.spring(response: response,dampingFraction: 0.5, blendDuration: blendDuration), value: change)
                 
                 VStack(spacing: 3) {
                     Text("Response").foregroundColor(Color("Gold"))
                     HStack {
                         Image(systemName: "1.circle.fill")
-                        Slider(value: $response)
+                        Slider(value: $response, in: 1...2)
                         Image(systemName: "2.circle.fill")
                     }
                     .padding(.horizontal)
@@ -41,7 +41,7 @@ struct Spring_BledDuration: View {
                     Text("Blend Duration").foregroundColor(Color("Gold"))
                     HStack {
                         Image(systemName: "0.circle.fill")
-                        Slider(value: $blendDuration)
+                        Slider(value: $blendDuration, in: 0...2)
                         Image(systemName: "2.circle.fill")
                     }
                     .padding(.horizontal)

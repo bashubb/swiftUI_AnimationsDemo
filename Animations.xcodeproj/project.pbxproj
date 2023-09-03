@@ -14,6 +14,7 @@
 		B5411C802AA47379003C18A2 /* Spring_Dampen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C7F2AA47379003C18A2 /* Spring_Dampen.swift */; };
 		B5411C822AA4771B003C18A2 /* Spring_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C812AA4771B003C18A2 /* Spring_Response.swift */; };
 		B5411C842AA49142003C18A2 /* Spring_BledDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C832AA49142003C18A2 /* Spring_BledDuration.swift */; };
+		B5411C862AA500D3003C18A2 /* Interactive_Comparsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C852AA500D3003C18A2 /* Interactive_Comparsion.swift */; };
 		B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */; };
 		B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */; };
 		B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */; };
@@ -91,6 +92,7 @@
 		B5411C7F2AA47379003C18A2 /* Spring_Dampen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_Dampen.swift; sourceTree = "<group>"; };
 		B5411C812AA4771B003C18A2 /* Spring_Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_Response.swift; sourceTree = "<group>"; };
 		B5411C832AA49142003C18A2 /* Spring_BledDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_BledDuration.swift; sourceTree = "<group>"; };
+		B5411C852AA500D3003C18A2 /* Interactive_Comparsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_Comparsion.swift; sourceTree = "<group>"; };
 		B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever.swift; sourceTree = "<group>"; };
 		B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever_AutoReverses.swift; sourceTree = "<group>"; };
 		B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_WithDelay.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */,
 				B5411C7D2AA3BAAC003C18A2 /* BannerText.swift */,
 				B5411C832AA49142003C18A2 /* Spring_BledDuration.swift */,
+				B5411C852AA500D3003C18A2 /* Interactive_Comparsion.swift */,
 			);
 			path = "The Spring Animation";
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 				B5411C822AA4771B003C18A2 /* Spring_Response.swift in Sources */,
 				B5411C7C2AA3BA2A003C18A2 /* SubtitleText.swift in Sources */,
 				B5ADF33E2A7A60A9009AEC76 /* Trigger_Gesture_Drag.swift in Sources */,
+				B5411C862AA500D3003C18A2 /* Interactive_Comparsion.swift in Sources */,
 				B5ADF3072A67D5C7009AEC76 /* Animate_RotationEffect.swift in Sources */,
 				B5ADF3202A692A55009AEC76 /* Trigger_Button.swift in Sources */,
 				B58BAA052A9B3A7F00186CA2 /* Speed_Intro.swift in Sources */,
