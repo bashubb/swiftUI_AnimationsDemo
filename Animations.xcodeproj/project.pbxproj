@@ -16,6 +16,7 @@
 		B5411C842AA49142003C18A2 /* Spring_BledDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C832AA49142003C18A2 /* Spring_BledDuration.swift */; };
 		B5411C862AA500D3003C18A2 /* Interactive_Comparsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C852AA500D3003C18A2 /* Interactive_Comparsion.swift */; };
 		B5411C892AA50BC9003C18A2 /* Interactive_Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C882AA50BC9003C18A2 /* Interactive_Popup.swift */; };
+		B5411C8C2AA511D1003C18A2 /* Interpolating_Stiffness.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C8B2AA511D1003C18A2 /* Interpolating_Stiffness.swift */; };
 		B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */; };
 		B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */; };
 		B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */; };
@@ -95,6 +96,7 @@
 		B5411C832AA49142003C18A2 /* Spring_BledDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_BledDuration.swift; sourceTree = "<group>"; };
 		B5411C852AA500D3003C18A2 /* Interactive_Comparsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_Comparsion.swift; sourceTree = "<group>"; };
 		B5411C882AA50BC9003C18A2 /* Interactive_Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_Popup.swift; sourceTree = "<group>"; };
+		B5411C8B2AA511D1003C18A2 /* Interpolating_Stiffness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolating_Stiffness.swift; sourceTree = "<group>"; };
 		B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever.swift; sourceTree = "<group>"; };
 		B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever_AutoReverses.swift; sourceTree = "<group>"; };
 		B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_WithDelay.swift; sourceTree = "<group>"; };
@@ -200,6 +202,14 @@
 			path = "Interactive Spring";
 			sourceTree = "<group>";
 		};
+		B5411C8A2AA511A6003C18A2 /* Interpolating Spring Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B5411C8B2AA511D1003C18A2 /* Interpolating_Stiffness.swift */,
+			);
+			path = "Interpolating Spring Animation";
+			sourceTree = "<group>";
+		};
 		B58BA9CD2A94CD4400186CA2 /* MultipleAnimations_singleView */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				B58BAA112A9B511A00186CA2 /* Info.plist */,
+				B5411C8A2AA511A6003C18A2 /* Interpolating Spring Animation */,
 				B5411C872AA50319003C18A2 /* Interactive Spring */,
 				B5411C762AA3B72A003C18A2 /* The Spring Animation */,
 				B58BAA062A9B3C9400186CA2 /* Turning Animations On&Off */,
@@ -474,6 +485,7 @@
 				B5411C7A2AA3B836003C18A2 /* TitleText.swift in Sources */,
 				B58BAA022A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift in Sources */,
 				B58BA9D32A95F3E000186CA2 /* Scope_CHangeSizeInParent.swift in Sources */,
+				B5411C8C2AA511D1003C18A2 /* Interpolating_Stiffness.swift in Sources */,
 				B5ADF3442A7A6B46009AEC76 /* Trigger_Gesture_Magnification.swift in Sources */,
 				B5ADF3662A8CD72B009AEC76 /* Delay_SequenceAnimations.swift in Sources */,
 				B58BAA152A9B64E600186CA2 /* Challenge7.swift in Sources */,
