@@ -11,6 +11,7 @@
 		B5411C7A2AA3B836003C18A2 /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C792AA3B836003C18A2 /* TitleText.swift */; };
 		B5411C7C2AA3BA2A003C18A2 /* SubtitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */; };
 		B5411C7E2AA3BAAC003C18A2 /* BannerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C7D2AA3BAAC003C18A2 /* BannerText.swift */; };
+		B5411C802AA47379003C18A2 /* Spring_Dampen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C7F2AA47379003C18A2 /* Spring_Dampen.swift */; };
 		B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */; };
 		B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */; };
 		B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */; };
@@ -85,6 +86,7 @@
 		B5411C792AA3B836003C18A2 /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 		B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleText.swift; sourceTree = "<group>"; };
 		B5411C7D2AA3BAAC003C18A2 /* BannerText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerText.swift; sourceTree = "<group>"; };
+		B5411C7F2AA47379003C18A2 /* Spring_Dampen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_Dampen.swift; sourceTree = "<group>"; };
 		B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever.swift; sourceTree = "<group>"; };
 		B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever_AutoReverses.swift; sourceTree = "<group>"; };
 		B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_WithDelay.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				B5411C772AA3B759003C18A2 /* Spring_Intro.swift */,
+				B5411C7F2AA47379003C18A2 /* Spring_Dampen.swift */,
 				B5411C792AA3B836003C18A2 /* TitleText.swift */,
 				B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */,
 				B5411C7D2AA3BAAC003C18A2 /* BannerText.swift */,
@@ -413,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5ADF3052A67D44B009AEC76 /* Animate_Opacity.swift in Sources */,
+				B5411C802AA47379003C18A2 /* Spring_Dampen.swift in Sources */,
 				B5ADF32C2A695204009AEC76 /* Trigger_OnDisappear.swift in Sources */,
 				B5ADF3612A8CD18E009AEC76 /* Duration_Long_Example.swift in Sources */,
 				B5ADF3092A67D722009AEC76 /* Animate_RotationEfect_Anchors.swift in Sources */,
