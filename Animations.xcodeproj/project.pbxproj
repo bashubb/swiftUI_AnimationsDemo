@@ -17,6 +17,7 @@
 		B5411C862AA500D3003C18A2 /* Interactive_Comparsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C852AA500D3003C18A2 /* Interactive_Comparsion.swift */; };
 		B5411C892AA50BC9003C18A2 /* Interactive_Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C882AA50BC9003C18A2 /* Interactive_Popup.swift */; };
 		B5411C8C2AA511D1003C18A2 /* Interpolating_Stiffness.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C8B2AA511D1003C18A2 /* Interpolating_Stiffness.swift */; };
+		B5411C8E2AA5BAF6003C18A2 /* Interpolating_Damping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C8D2AA5BAF6003C18A2 /* Interpolating_Damping.swift */; };
 		B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */; };
 		B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */; };
 		B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */; };
@@ -97,6 +98,7 @@
 		B5411C852AA500D3003C18A2 /* Interactive_Comparsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_Comparsion.swift; sourceTree = "<group>"; };
 		B5411C882AA50BC9003C18A2 /* Interactive_Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_Popup.swift; sourceTree = "<group>"; };
 		B5411C8B2AA511D1003C18A2 /* Interpolating_Stiffness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolating_Stiffness.swift; sourceTree = "<group>"; };
+		B5411C8D2AA5BAF6003C18A2 /* Interpolating_Damping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolating_Damping.swift; sourceTree = "<group>"; };
 		B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever.swift; sourceTree = "<group>"; };
 		B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever_AutoReverses.swift; sourceTree = "<group>"; };
 		B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_WithDelay.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				B5411C8B2AA511D1003C18A2 /* Interpolating_Stiffness.swift */,
+				B5411C8D2AA5BAF6003C18A2 /* Interpolating_Damping.swift */,
 			);
 			path = "Interpolating Spring Animation";
 			sourceTree = "<group>";
@@ -518,6 +521,7 @@
 				B58BA9CF2A94CD6500186CA2 /* Scope_SequenceOnSingleVIew.swift in Sources */,
 				B5ADF31B2A6805A8009AEC76 /* Challenge_5.swift in Sources */,
 				B5ADF2FB2A672E55009AEC76 /* Animate_Color.swift in Sources */,
+				B5411C8E2AA5BAF6003C18A2 /* Interpolating_Damping.swift in Sources */,
 				B58BA9D92A95FA4500186CA2 /* Scope_WithAnimation.swift in Sources */,
 				B5ADF3262A694AFF009AEC76 /* Trigger_Stepper.swift in Sources */,
 				B5ADF30D2A67EDB0009AEC76 /* Animate_Size_ScaleEffect.swift in Sources */,

@@ -20,7 +20,7 @@ struct Interpolating_Stiffness: View {
                     .foregroundColor(Color("Gold"))
                 SubtitleText("Stiffness")
                     .font(.title)
-                BannerText("Siffness means gow unmoving something is. Zero is completely stiff. Gigher values alre less and less siff, moving faster", backColor:Color("Gold"))
+                BannerText("Siffness means how unmoving something is. Zero is completely stiff. Gigher values alre less and less siff, moving faster", backColor:Color("Gold"))
                     .font(.title)
                 
                 Button("Compare Stiffness") {
