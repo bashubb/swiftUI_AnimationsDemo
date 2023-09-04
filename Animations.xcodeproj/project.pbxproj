@@ -18,6 +18,8 @@
 		B5411C892AA50BC9003C18A2 /* Interactive_Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C882AA50BC9003C18A2 /* Interactive_Popup.swift */; };
 		B5411C8C2AA511D1003C18A2 /* Interpolating_Stiffness.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C8B2AA511D1003C18A2 /* Interpolating_Stiffness.swift */; };
 		B5411C8E2AA5BAF6003C18A2 /* Interpolating_Damping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C8D2AA5BAF6003C18A2 /* Interpolating_Damping.swift */; };
+		B5411C902AA5BF9D003C18A2 /* Interpolating_CompareStiffnessDamping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C8F2AA5BF9D003C18A2 /* Interpolating_CompareStiffnessDamping.swift */; };
+		B5411C922AA5C318003C18A2 /* Interpolating_Mass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C912AA5C318003C18A2 /* Interpolating_Mass.swift */; };
 		B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */; };
 		B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */; };
 		B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */; };
@@ -99,6 +101,8 @@
 		B5411C882AA50BC9003C18A2 /* Interactive_Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_Popup.swift; sourceTree = "<group>"; };
 		B5411C8B2AA511D1003C18A2 /* Interpolating_Stiffness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolating_Stiffness.swift; sourceTree = "<group>"; };
 		B5411C8D2AA5BAF6003C18A2 /* Interpolating_Damping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolating_Damping.swift; sourceTree = "<group>"; };
+		B5411C8F2AA5BF9D003C18A2 /* Interpolating_CompareStiffnessDamping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolating_CompareStiffnessDamping.swift; sourceTree = "<group>"; };
+		B5411C912AA5C318003C18A2 /* Interpolating_Mass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolating_Mass.swift; sourceTree = "<group>"; };
 		B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever.swift; sourceTree = "<group>"; };
 		B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever_AutoReverses.swift; sourceTree = "<group>"; };
 		B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_WithDelay.swift; sourceTree = "<group>"; };
@@ -209,6 +213,8 @@
 			children = (
 				B5411C8B2AA511D1003C18A2 /* Interpolating_Stiffness.swift */,
 				B5411C8D2AA5BAF6003C18A2 /* Interpolating_Damping.swift */,
+				B5411C8F2AA5BF9D003C18A2 /* Interpolating_CompareStiffnessDamping.swift */,
+				B5411C912AA5C318003C18A2 /* Interpolating_Mass.swift */,
 			);
 			path = "Interpolating Spring Animation";
 			sourceTree = "<group>";
@@ -449,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5411C902AA5BF9D003C18A2 /* Interpolating_CompareStiffnessDamping.swift in Sources */,
 				B5ADF3052A67D44B009AEC76 /* Animate_Opacity.swift in Sources */,
 				B5411C802AA47379003C18A2 /* Spring_Dampen.swift in Sources */,
 				B5ADF32C2A695204009AEC76 /* Trigger_OnDisappear.swift in Sources */,
@@ -486,6 +493,7 @@
 				B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */,
 				B5ADF2FF2A679260009AEC76 /* Animate_Offset.swift in Sources */,
 				B5411C7A2AA3B836003C18A2 /* TitleText.swift in Sources */,
+				B5411C922AA5C318003C18A2 /* Interpolating_Mass.swift in Sources */,
 				B58BAA022A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift in Sources */,
 				B58BA9D32A95F3E000186CA2 /* Scope_CHangeSizeInParent.swift in Sources */,
 				B5411C8C2AA511D1003C18A2 /* Interpolating_Stiffness.swift in Sources */,
