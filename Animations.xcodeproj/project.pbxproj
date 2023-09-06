@@ -47,6 +47,7 @@
 		B58BAA152A9B64E600186CA2 /* Challenge7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BAA142A9B64E600186CA2 /* Challenge7.swift */; };
 		B5AD57902AA88F9600FC60AE /* Spring Options Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD578F2AA88F9600FC60AE /* Spring Options Delay.swift */; };
 		B5AD57922AA893A100FC60AE /* Spring_Options_Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57912AA893A100FC60AE /* Spring_Options_Speed.swift */; };
+		B5AD57942AA8974700FC60AE /* Spring_Options_Repeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57932AA8974700FC60AE /* Spring_Options_Repeating.swift */; };
 		B5ADF2E52A671E52009AEC76 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */; };
 		B5ADF2E72A671E52009AEC76 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E62A671E52009AEC76 /* Template.swift */; };
 		B5ADF2E92A671E53009AEC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ADF2E82A671E53009AEC76 /* Assets.xcassets */; };
@@ -136,6 +137,7 @@
 		B58BAA142A9B64E600186CA2 /* Challenge7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge7.swift; sourceTree = "<group>"; };
 		B5AD578F2AA88F9600FC60AE /* Spring Options Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spring Options Delay.swift"; sourceTree = "<group>"; };
 		B5AD57912AA893A100FC60AE /* Spring_Options_Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_Options_Speed.swift; sourceTree = "<group>"; };
+		B5AD57932AA8974700FC60AE /* Spring_Options_Repeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_Options_Repeating.swift; sourceTree = "<group>"; };
 		B5ADF2E12A671E52009AEC76 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		B5ADF2E62A671E52009AEC76 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			children = (
 				B5AD578F2AA88F9600FC60AE /* Spring Options Delay.swift */,
 				B5AD57912AA893A100FC60AE /* Spring_Options_Speed.swift */,
+				B5AD57932AA8974700FC60AE /* Spring_Options_Repeating.swift */,
 			);
 			path = "Spring Animations with Options";
 			sourceTree = "<group>";
@@ -547,6 +550,7 @@
 				B58BA9D12A94D90C00186CA2 /* Scope_ParentAndChildren.swift in Sources */,
 				B5411C842AA49142003C18A2 /* Spring_BledDuration.swift in Sources */,
 				B5AD57902AA88F9600FC60AE /* Spring Options Delay.swift in Sources */,
+				B5AD57942AA8974700FC60AE /* Spring_Options_Repeating.swift in Sources */,
 				B58BA9DB2A95FC3D00186CA2 /* Scope_WithAnimation_CustomAnimation.swift in Sources */,
 				B58BA9E12A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift in Sources */,
 				B58BA9D72A95F81F00186CA2 /* Scope_NoAnimations.swift in Sources */,
