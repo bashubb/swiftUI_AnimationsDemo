@@ -46,6 +46,7 @@
 		B58BAA132A9B5CC000186CA2 /* Challenge6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BAA122A9B5CC000186CA2 /* Challenge6.swift */; };
 		B58BAA152A9B64E600186CA2 /* Challenge7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BAA142A9B64E600186CA2 /* Challenge7.swift */; };
 		B5AD57902AA88F9600FC60AE /* Spring Options Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD578F2AA88F9600FC60AE /* Spring Options Delay.swift */; };
+		B5AD57922AA893A100FC60AE /* Spring_Options_Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57912AA893A100FC60AE /* Spring_Options_Speed.swift */; };
 		B5ADF2E52A671E52009AEC76 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */; };
 		B5ADF2E72A671E52009AEC76 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF2E62A671E52009AEC76 /* Template.swift */; };
 		B5ADF2E92A671E53009AEC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ADF2E82A671E53009AEC76 /* Assets.xcassets */; };
@@ -134,6 +135,7 @@
 		B58BAA122A9B5CC000186CA2 /* Challenge6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge6.swift; sourceTree = "<group>"; };
 		B58BAA142A9B64E600186CA2 /* Challenge7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge7.swift; sourceTree = "<group>"; };
 		B5AD578F2AA88F9600FC60AE /* Spring Options Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spring Options Delay.swift"; sourceTree = "<group>"; };
+		B5AD57912AA893A100FC60AE /* Spring_Options_Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_Options_Speed.swift; sourceTree = "<group>"; };
 		B5ADF2E12A671E52009AEC76 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ADF2E42A671E52009AEC76 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		B5ADF2E62A671E52009AEC76 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				B5AD578F2AA88F9600FC60AE /* Spring Options Delay.swift */,
+				B5AD57912AA893A100FC60AE /* Spring_Options_Speed.swift */,
 			);
 			path = "Spring Animations with Options";
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				B58BA9DF2A96009000186CA2 /* Scope_WithAnimation_MultipleViews.swift in Sources */,
 				B58BAA0A2A9B3F3400186CA2 /* Value_ShowHideExpample.swift in Sources */,
 				B5411C782AA3B759003C18A2 /* Spring_Intro.swift in Sources */,
+				B5AD57922AA893A100FC60AE /* Spring_Options_Speed.swift in Sources */,
 				B5ADF2E72A671E52009AEC76 /* Template.swift in Sources */,
 				B5ADF3552A8B5324009AEC76 /* Trigger_Gesture_Rotation.swift in Sources */,
 				B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */,
