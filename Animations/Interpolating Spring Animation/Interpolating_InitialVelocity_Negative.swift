@@ -37,7 +37,7 @@ struct Interpolating_InitialVelocity_Negative: View {
                             })
                         .scaleEffect(makeItBigger ? 1.75 : 1, anchor: .leading)
                         .zIndex(1)
-                        .animation(.interpolatingSpring( stiffness: 100, damping: 10, initialVelocity: -10))
+                        .animation(.interpolatingSpring( stiffness: 100, damping: 10, initialVelocity: -10), value: makeItBigger)
                         .onTapGesture {
                             makeItBigger.toggle()
                         }
