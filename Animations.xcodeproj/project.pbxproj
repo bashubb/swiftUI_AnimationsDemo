@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B529243A2AA9F163006BC31D /* Exercise2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924392AA9F163006BC31D /* Exercise2.swift */; };
 		B529243F2AAC7445006BC31D /* Challenge 8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529243E2AAC7445006BC31D /* Challenge 8.swift */; };
+		B52924422AAC88D2006BC31D /* Transition_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924412AAC88D2006BC31D /* Transition_Intro.swift */; };
 		B5411C782AA3B759003C18A2 /* Spring_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C772AA3B759003C18A2 /* Spring_Intro.swift */; };
 		B5411C7A2AA3B836003C18A2 /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C792AA3B836003C18A2 /* TitleText.swift */; };
 		B5411C7C2AA3BA2A003C18A2 /* SubtitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */; };
@@ -100,6 +101,7 @@
 /* Begin PBXFileReference section */
 		B52924392AA9F163006BC31D /* Exercise2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise2.swift; sourceTree = "<group>"; };
 		B529243E2AAC7445006BC31D /* Challenge 8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge 8.swift"; sourceTree = "<group>"; };
+		B52924412AAC88D2006BC31D /* Transition_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition_Intro.swift; sourceTree = "<group>"; };
 		B5411C772AA3B759003C18A2 /* Spring_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_Intro.swift; sourceTree = "<group>"; };
 		B5411C792AA3B836003C18A2 /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 		B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleText.swift; sourceTree = "<group>"; };
@@ -201,6 +203,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B52924402AAC88B1006BC31D /* Any Transition */ = {
+			isa = PBXGroup;
+			children = (
+				B52924412AAC88D2006BC31D /* Transition_Intro.swift */,
+			);
+			path = "Any Transition";
+			sourceTree = "<group>";
+		};
 		B5411C762AA3B72A003C18A2 /* The Spring Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				B58BAA112A9B511A00186CA2 /* Info.plist */,
+				B52924402AAC88B1006BC31D /* Any Transition */,
 				B5411CD32AA75A15003C18A2 /* Spring Animations with Options */,
 				B5411C8A2AA511A6003C18A2 /* Interpolating Spring Animation */,
 				B5411C872AA50319003C18A2 /* Interactive Spring */,
@@ -496,6 +507,7 @@
 				B5ADF2F92A672C76009AEC76 /* Challange_2.swift in Sources */,
 				B5ADF3112A67F140009AEC76 /* Animate_RoundedCorners.swift in Sources */,
 				B5ADF3572A8B5B8D009AEC76 /* Trigger_ScrollLocation.swift in Sources */,
+				B52924422AAC88D2006BC31D /* Transition_Intro.swift in Sources */,
 				B5ADF2F52A6726FE009AEC76 /* Example_NoAnimation.swift in Sources */,
 				B5ADF30F2A67EF4B009AEC76 /* Animate_ScaleEffect_Anchors.swift in Sources */,
 				B5ADF3032A67D255009AEC76 /* Animate_GeometryReader.swift in Sources */,

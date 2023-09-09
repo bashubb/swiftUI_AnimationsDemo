@@ -68,8 +68,8 @@ struct Challenge_8: View {
                         
                         
                     }
-                    .frame(width: gp.frame(in: .global).width*3, alignment: .leading)
-                    .offset(x: -CGFloat((currentSelectedView - 1)) * gp.frame(in: .global).width)
+                    .frame(width: gp.size.width * 3, alignment: .leading)
+                    .offset(x: -CGFloat((currentSelectedView - 1)) * gp.size.width)
                     
                     
                    
