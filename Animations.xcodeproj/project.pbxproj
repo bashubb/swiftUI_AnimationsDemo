@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B529243A2AA9F163006BC31D /* Exercise2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924392AA9F163006BC31D /* Exercise2.swift */; };
+		B529243F2AAC7445006BC31D /* Challenge 8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529243E2AAC7445006BC31D /* Challenge 8.swift */; };
 		B5411C782AA3B759003C18A2 /* Spring_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C772AA3B759003C18A2 /* Spring_Intro.swift */; };
 		B5411C7A2AA3B836003C18A2 /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C792AA3B836003C18A2 /* TitleText.swift */; };
 		B5411C7C2AA3BA2A003C18A2 /* SubtitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */; };
@@ -98,6 +99,7 @@
 
 /* Begin PBXFileReference section */
 		B52924392AA9F163006BC31D /* Exercise2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise2.swift; sourceTree = "<group>"; };
+		B529243E2AAC7445006BC31D /* Challenge 8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge 8.swift"; sourceTree = "<group>"; };
 		B5411C772AA3B759003C18A2 /* Spring_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_Intro.swift; sourceTree = "<group>"; };
 		B5411C792AA3B836003C18A2 /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 		B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleText.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				B5AD57912AA893A100FC60AE /* Spring_Options_Speed.swift */,
 				B5AD57932AA8974700FC60AE /* Spring_Options_Repeating.swift */,
 				B52924392AA9F163006BC31D /* Exercise2.swift */,
+				B529243E2AAC7445006BC31D /* Challenge 8.swift */,
 			);
 			path = "Spring Animations with Options";
 			sourceTree = "<group>";
@@ -561,6 +564,7 @@
 				B5ADF3152A67F3A7009AEC76 /* Animate_Trim .swift in Sources */,
 				B5411C892AA50BC9003C18A2 /* Interactive_Popup.swift in Sources */,
 				B5ADF3242A6937DE009AEC76 /* Trigger_Slider.swift in Sources */,
+				B529243F2AAC7445006BC31D /* Challenge 8.swift in Sources */,
 				B5ADF3172A67F558009AEC76 /* Challenge_3.swift in Sources */,
 				B58BA9CF2A94CD6500186CA2 /* Scope_SequenceOnSingleVIew.swift in Sources */,
 				B5ADF31B2A6805A8009AEC76 /* Challenge_5.swift in Sources */,
