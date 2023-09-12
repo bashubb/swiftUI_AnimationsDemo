@@ -31,6 +31,7 @@
 		B5411CD02AA74251003C18A2 /* Interpolating_InitialVelocity_Negative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CCF2AA74251003C18A2 /* Interpolating_InitialVelocity_Negative.swift */; };
 		B5411CD22AA7497A003C18A2 /* Interpolating_Overlapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CD12AA7497A003C18A2 /* Interpolating_Overlapping.swift */; };
 		B57CF9F82AAF3BEA0035105E /* Transition_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF9F72AAF3BEA0035105E /* Transition_Slide.swift */; };
+		B57CFA012AB058C20035105E /* Transitions_WithForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CFA002AB058C20035105E /* Transitions_WithForEach.swift */; };
 		B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */; };
 		B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */; };
 		B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */; };
@@ -128,6 +129,7 @@
 		B5411CCF2AA74251003C18A2 /* Interpolating_InitialVelocity_Negative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolating_InitialVelocity_Negative.swift; sourceTree = "<group>"; };
 		B5411CD12AA7497A003C18A2 /* Interpolating_Overlapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolating_Overlapping.swift; sourceTree = "<group>"; };
 		B57CF9F72AAF3BEA0035105E /* Transition_Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition_Slide.swift; sourceTree = "<group>"; };
+		B57CFA002AB058C20035105E /* Transitions_WithForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions_WithForEach.swift; sourceTree = "<group>"; };
 		B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever.swift; sourceTree = "<group>"; };
 		B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever_AutoReverses.swift; sourceTree = "<group>"; };
 		B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_WithDelay.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				B52924472AAE5A40006BC31D /* Transition_Opacity.swift */,
 				B52924492AAE5B51006BC31D /* Transition_Scale.swift */,
 				B57CF9F72AAF3BEA0035105E /* Transition_Slide.swift */,
+				B57CFA002AB058C20035105E /* Transitions_WithForEach.swift */,
 			);
 			path = "Any Transition";
 			sourceTree = "<group>";
@@ -562,6 +565,7 @@
 				B58BAA022A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift in Sources */,
 				B5411CD02AA74251003C18A2 /* Interpolating_InitialVelocity_Negative.swift in Sources */,
 				B58BA9D32A95F3E000186CA2 /* Scope_CHangeSizeInParent.swift in Sources */,
+				B57CFA012AB058C20035105E /* Transitions_WithForEach.swift in Sources */,
 				B5411C8C2AA511D1003C18A2 /* Interpolating_Stiffness.swift in Sources */,
 				B5411CD22AA7497A003C18A2 /* Interpolating_Overlapping.swift in Sources */,
 				B5ADF3442A7A6B46009AEC76 /* Trigger_Gesture_Magnification.swift in Sources */,
