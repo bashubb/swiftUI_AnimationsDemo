@@ -32,6 +32,7 @@
 		B5411CD22AA7497A003C18A2 /* Interpolating_Overlapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CD12AA7497A003C18A2 /* Interpolating_Overlapping.swift */; };
 		B57CF9F82AAF3BEA0035105E /* Transition_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF9F72AAF3BEA0035105E /* Transition_Slide.swift */; };
 		B57CFA012AB058C20035105E /* Transitions_WithForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CFA002AB058C20035105E /* Transitions_WithForEach.swift */; };
+		B57CFA042AB05E990035105E /* Combinig_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CFA032AB05E990035105E /* Combinig_Intro.swift */; };
 		B58BA9C82A94C2BD00186CA2 /* Repeating_RepeatForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */; };
 		B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */; };
 		B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */; };
@@ -130,6 +131,7 @@
 		B5411CD12AA7497A003C18A2 /* Interpolating_Overlapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolating_Overlapping.swift; sourceTree = "<group>"; };
 		B57CF9F72AAF3BEA0035105E /* Transition_Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition_Slide.swift; sourceTree = "<group>"; };
 		B57CFA002AB058C20035105E /* Transitions_WithForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions_WithForEach.swift; sourceTree = "<group>"; };
+		B57CFA032AB05E990035105E /* Combinig_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinig_Intro.swift; sourceTree = "<group>"; };
 		B58BA9C72A94C2BD00186CA2 /* Repeating_RepeatForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever.swift; sourceTree = "<group>"; };
 		B58BA9C92A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever_AutoReverses.swift; sourceTree = "<group>"; };
 		B58BA9CB2A94CBE500186CA2 /* Repeating_WithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_WithDelay.swift; sourceTree = "<group>"; };
@@ -278,6 +280,14 @@
 			path = "Spring Animations with Options";
 			sourceTree = "<group>";
 		};
+		B57CFA022AB05E7F0035105E /* Combinig Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				B57CFA032AB05E990035105E /* Combinig_Intro.swift */,
+			);
+			path = "Combinig Transitions";
+			sourceTree = "<group>";
+		};
 		B58BA9CD2A94CD4400186CA2 /* MultipleAnimations_singleView */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +349,7 @@
 			isa = PBXGroup;
 			children = (
 				B58BAA112A9B511A00186CA2 /* Info.plist */,
+				B57CFA022AB05E7F0035105E /* Combinig Transitions */,
 				B52924402AAC88B1006BC31D /* Any Transition */,
 				B5411CD32AA75A15003C18A2 /* Spring Animations with Options */,
 				B5411C8A2AA511A6003C18A2 /* Interpolating Spring Animation */,
@@ -560,6 +571,7 @@
 				B58BA9CC2A94CBE500186CA2 /* Repeating_WithDelay.swift in Sources */,
 				B5ADF2FF2A679260009AEC76 /* Animate_Offset.swift in Sources */,
 				B52924442AAC8C65006BC31D /* Transition_Move.swift in Sources */,
+				B57CFA042AB05E990035105E /* Combinig_Intro.swift in Sources */,
 				B5411C7A2AA3B836003C18A2 /* TitleText.swift in Sources */,
 				B5411C922AA5C318003C18A2 /* Interpolating_Mass.swift in Sources */,
 				B58BAA022A9A5FFD00186CA2 /* Scope_WithAnimation_Sequencing_SameView.swift in Sources */,
