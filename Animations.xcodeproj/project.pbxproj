@@ -104,6 +104,7 @@
 		B5ADF3692A8CDA5E009AEC76 /* Repeating_RepeatCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3682A8CDA5E009AEC76 /* Repeating_RepeatCount.swift */; };
 		B5ADF3992A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3982A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift */; };
 		B5AE412B2AB3148A000E21D8 /* Combining_MoveAndScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE412A2AB3148A000E21D8 /* Combining_MoveAndScale.swift */; };
+		B5AE412D2AB316EF000E21D8 /* Combining_ThreeEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE412C2AB316EF000E21D8 /* Combining_ThreeEffects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -206,6 +207,7 @@
 		B5ADF3682A8CDA5E009AEC76 /* Repeating_RepeatCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatCount.swift; sourceTree = "<group>"; };
 		B5ADF3982A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatCount_AutoReverse.swift; sourceTree = "<group>"; };
 		B5AE412A2AB3148A000E21D8 /* Combining_MoveAndScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combining_MoveAndScale.swift; sourceTree = "<group>"; };
+		B5AE412C2AB316EF000E21D8 /* Combining_ThreeEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combining_ThreeEffects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +289,7 @@
 			children = (
 				B57CFA032AB05E990035105E /* Combinig_Intro.swift */,
 				B5AE412A2AB3148A000E21D8 /* Combining_MoveAndScale.swift */,
+				B5AE412C2AB316EF000E21D8 /* Combining_ThreeEffects.swift */,
 			);
 			path = "Combinig Transitions";
 			sourceTree = "<group>";
@@ -534,6 +537,7 @@
 				B5ADF3052A67D44B009AEC76 /* Animate_Opacity.swift in Sources */,
 				B5411C802AA47379003C18A2 /* Spring_Dampen.swift in Sources */,
 				B5ADF32C2A695204009AEC76 /* Trigger_OnDisappear.swift in Sources */,
+				B5AE412D2AB316EF000E21D8 /* Combining_ThreeEffects.swift in Sources */,
 				B5ADF3612A8CD18E009AEC76 /* Duration_Long_Example.swift in Sources */,
 				B5ADF3092A67D722009AEC76 /* Animate_RotationEfect_Anchors.swift in Sources */,
 				B5ADF2F92A672C76009AEC76 /* Challange_2.swift in Sources */,
