@@ -48,7 +48,7 @@ struct Trigger_Gesture_Drag: View {
                         if value.translation.height > 100 {
                             currentMenuY = 200 // collapsed
                         } else {
-                            currentMenuY = 0 // exspanded
+                            currentMenuY = 0 // expanded
                         }
                     })
             )
