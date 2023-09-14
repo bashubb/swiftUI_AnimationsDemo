@@ -103,6 +103,7 @@
 		B5ADF3662A8CD72B009AEC76 /* Delay_SequenceAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3652A8CD72B009AEC76 /* Delay_SequenceAnimations.swift */; };
 		B5ADF3692A8CDA5E009AEC76 /* Repeating_RepeatCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3682A8CDA5E009AEC76 /* Repeating_RepeatCount.swift */; };
 		B5ADF3992A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADF3982A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift */; };
+		B5AE412B2AB3148A000E21D8 /* Combining_MoveAndScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE412A2AB3148A000E21D8 /* Combining_MoveAndScale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -204,6 +205,7 @@
 		B5ADF3652A8CD72B009AEC76 /* Delay_SequenceAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay_SequenceAnimations.swift; sourceTree = "<group>"; };
 		B5ADF3682A8CDA5E009AEC76 /* Repeating_RepeatCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatCount.swift; sourceTree = "<group>"; };
 		B5ADF3982A8F8AAB009AEC76 /* Repeating_RepeatCount_AutoReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatCount_AutoReverse.swift; sourceTree = "<group>"; };
+		B5AE412A2AB3148A000E21D8 /* Combining_MoveAndScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combining_MoveAndScale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				B57CFA032AB05E990035105E /* Combinig_Intro.swift */,
+				B5AE412A2AB3148A000E21D8 /* Combining_MoveAndScale.swift */,
 			);
 			path = "Combinig Transitions";
 			sourceTree = "<group>";
@@ -550,6 +553,7 @@
 				B5411C782AA3B759003C18A2 /* Spring_Intro.swift in Sources */,
 				B5AD57922AA893A100FC60AE /* Spring_Options_Speed.swift in Sources */,
 				B5ADF2E72A671E52009AEC76 /* Template.swift in Sources */,
+				B5AE412B2AB3148A000E21D8 /* Combining_MoveAndScale.swift in Sources */,
 				B5ADF3552A8B5324009AEC76 /* Trigger_Gesture_Rotation.swift in Sources */,
 				B58BA9CA2A94CA0100186CA2 /* Repeating_RepeatForever_AutoReverses.swift in Sources */,
 				B5ADF3222A693058009AEC76 /* Trigger_SegmentedControl.swift in Sources */,
