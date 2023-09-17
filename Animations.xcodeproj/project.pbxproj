@@ -14,6 +14,7 @@
 		B52924462AAE5888006BC31D /* Transition_Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924452AAE5888006BC31D /* Transition_Offset.swift */; };
 		B52924482AAE5A40006BC31D /* Transition_Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924472AAE5A40006BC31D /* Transition_Opacity.swift */; };
 		B529244A2AAE5B51006BC31D /* Transition_Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924492AAE5B51006BC31D /* Transition_Scale.swift */; };
+		B53ED4A62AB77D9D00692EC6 /* If_Else_Problem .swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED4A52AB77D9D00692EC6 /* If_Else_Problem .swift */; };
 		B5411C782AA3B759003C18A2 /* Spring_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C772AA3B759003C18A2 /* Spring_Intro.swift */; };
 		B5411C7A2AA3B836003C18A2 /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C792AA3B836003C18A2 /* TitleText.swift */; };
 		B5411C7C2AA3BA2A003C18A2 /* SubtitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */; };
@@ -116,6 +117,7 @@
 		B52924452AAE5888006BC31D /* Transition_Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition_Offset.swift; sourceTree = "<group>"; };
 		B52924472AAE5A40006BC31D /* Transition_Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition_Opacity.swift; sourceTree = "<group>"; };
 		B52924492AAE5B51006BC31D /* Transition_Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition_Scale.swift; sourceTree = "<group>"; };
+		B53ED4A52AB77D9D00692EC6 /* If_Else_Problem .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "If_Else_Problem .swift"; sourceTree = "<group>"; };
 		B5411C772AA3B759003C18A2 /* Spring_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_Intro.swift; sourceTree = "<group>"; };
 		B5411C792AA3B836003C18A2 /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 		B5411C7B2AA3BA2A003C18A2 /* SubtitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleText.swift; sourceTree = "<group>"; };
@@ -237,6 +239,14 @@
 			path = "Any Transition";
 			sourceTree = "<group>";
 		};
+		B53ED4A42AB77D7800692EC6 /* IfElse */ = {
+			isa = PBXGroup;
+			children = (
+				B53ED4A52AB77D9D00692EC6 /* If_Else_Problem .swift */,
+			);
+			path = IfElse;
+			sourceTree = "<group>";
+		};
 		B5411C762AA3B72A003C18A2 /* The Spring Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,8 +366,8 @@
 		B5ADF2E32A671E52009AEC76 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				B5AE412E2AB31B0B000E21D8 /* WorkingWithTransitions */,
 				B58BAA112A9B511A00186CA2 /* Info.plist */,
+				B5AE412E2AB31B0B000E21D8 /* WorkingWithTransitions */,
 				B57CFA022AB05E7F0035105E /* Combinig Transitions */,
 				B52924402AAC88B1006BC31D /* Any Transition */,
 				B5411CD32AA75A15003C18A2 /* Spring Animations with Options */,
@@ -469,6 +479,7 @@
 		B5AE412E2AB31B0B000E21D8 /* WorkingWithTransitions */ = {
 			isa = PBXGroup;
 			children = (
+				B53ED4A42AB77D7800692EC6 /* IfElse */,
 				B5AE41312AB32224000E21D8 /* WorkingWithLayers */,
 			);
 			path = WorkingWithTransitions;
@@ -648,6 +659,7 @@
 				B5411C8E2AA5BAF6003C18A2 /* Interpolating_Damping.swift in Sources */,
 				B58BA9D92A95FA4500186CA2 /* Scope_WithAnimation.swift in Sources */,
 				B5ADF3262A694AFF009AEC76 /* Trigger_Stepper.swift in Sources */,
+				B53ED4A62AB77D9D00692EC6 /* If_Else_Problem .swift in Sources */,
 				B5ADF30D2A67EDB0009AEC76 /* Animate_Size_ScaleEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
