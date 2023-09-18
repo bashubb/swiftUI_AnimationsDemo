@@ -11,7 +11,7 @@ import SwiftUI
 struct AnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-            Trigger_Gesture_Magnification()
+            Asymmetric_Intro()
         }
     }
 }
