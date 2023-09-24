@@ -58,8 +58,7 @@ struct Asymmetric_CombiningEffect: View {
                 .background(Color("BannerTextTransitions"), in: RoundedRectangle(cornerRadius: 20))
                 .padding(.top, 100)
                 .shadow(radius: 15)
-                .transition(.asymmetric(insertion: .scale(scale: 0.1, anchor: .topTrailing).combined(with: .offset(y:200)),
-                                        removal: .scale(scale: 0.2).combined(with: .opacity)))
+                .transition(AnyTransition.zoomInAndOut)
                 .zIndex(1)
             }
         }
@@ -71,5 +70,25 @@ struct Asymmetric_CombiningEffect: View {
 struct Asymmetric_CombiningEffect_Previews: PreviewProvider {
     static var previews: some View {
         Asymmetric_CombiningEffect()
+    }
+}
+
+
+// Create New Transition
+
+extension AnyTransition {
+    
+    
+    // static property
+    static var zoomInAndOut: AnyTransition {
+        .asymmetric(insertion: .scale(scale: 0.1, anchor: .topTrailing).combined(with: .offset(y:200)),
+                                removal: .scale(scale: 0.2).combined(with: .opacity))
+        
+    }
+    
+    // function
+    static func zoomIn(from anchor: UnitPoint) -> AnyTransition {
+        .asymmetric(insertion: .scale(scale: 0.1, anchor: anchor).combined(with: .offset(y:200)),
+                                removal: .scale(scale: 0.2).combined(with: .opacity))
     }
 }
