@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B51C9D052AC072320015AA39 /* Asymmetric_CombiningEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51C9D042AC072320015AA39 /* Asymmetric_CombiningEffect.swift */; };
 		B529243A2AA9F163006BC31D /* Exercise2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924392AA9F163006BC31D /* Exercise2.swift */; };
 		B529243F2AAC7445006BC31D /* Challenge 8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529243E2AAC7445006BC31D /* Challenge 8.swift */; };
 		B52924422AAC88D2006BC31D /* Transition_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924412AAC88D2006BC31D /* Transition_Intro.swift */; };
@@ -116,6 +117,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B51C9D042AC072320015AA39 /* Asymmetric_CombiningEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asymmetric_CombiningEffect.swift; sourceTree = "<group>"; };
 		B52924392AA9F163006BC31D /* Exercise2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise2.swift; sourceTree = "<group>"; };
 		B529243E2AAC7445006BC31D /* Challenge 8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge 8.swift"; sourceTree = "<group>"; };
 		B52924412AAC88D2006BC31D /* Transition_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition_Intro.swift; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 			children = (
 				B53ED4B32AB83CE400692EC6 /* Asymmetric_Intro.swift */,
 				B53ED4B52AB842DA00692EC6 /* Asymmetric_TwoAnimations.swift */,
+				B51C9D042AC072320015AA39 /* Asymmetric_CombiningEffect.swift */,
 			);
 			path = "Asymmetric Transitions";
 			sourceTree = "<group>";
@@ -597,6 +600,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51C9D052AC072320015AA39 /* Asymmetric_CombiningEffect.swift in Sources */,
 				B5411C902AA5BF9D003C18A2 /* Interpolating_CompareStiffnessDamping.swift in Sources */,
 				B5ADF3052A67D44B009AEC76 /* Animate_Opacity.swift in Sources */,
 				B5411C802AA47379003C18A2 /* Spring_Dampen.swift in Sources */,
