@@ -114,6 +114,7 @@
 		B5AE412B2AB3148A000E21D8 /* Combining_MoveAndScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE412A2AB3148A000E21D8 /* Combining_MoveAndScale.swift */; };
 		B5AE412D2AB316EF000E21D8 /* Combining_ThreeEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE412C2AB316EF000E21D8 /* Combining_ThreeEffects.swift */; };
 		B5AE41302AB31B29000E21D8 /* ZStack_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE412F2AB31B29000E21D8 /* ZStack_Problem.swift */; };
+		B5E045252AC20F4400481109 /* ContentTransition_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E045242AC20F4400481109 /* ContentTransition_Intro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -226,6 +227,7 @@
 		B5AE412A2AB3148A000E21D8 /* Combining_MoveAndScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combining_MoveAndScale.swift; sourceTree = "<group>"; };
 		B5AE412C2AB316EF000E21D8 /* Combining_ThreeEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combining_ThreeEffects.swift; sourceTree = "<group>"; };
 		B5AE412F2AB31B29000E21D8 /* ZStack_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Problem.swift; sourceTree = "<group>"; };
+		B5E045242AC20F4400481109 /* ContentTransition_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTransition_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +404,7 @@
 			isa = PBXGroup;
 			children = (
 				B58BAA112A9B511A00186CA2 /* Info.plist */,
+				B5E045232AC20F2700481109 /* Content Transitions */,
 				B5AE412E2AB31B0B000E21D8 /* WorkingWithTransitions */,
 				B57CFA022AB05E7F0035105E /* Combinig Transitions */,
 				B52924402AAC88B1006BC31D /* Any Transition */,
@@ -528,6 +531,14 @@
 				B5AE412F2AB31B29000E21D8 /* ZStack_Problem.swift */,
 			);
 			path = WorkingWithLayers;
+			sourceTree = "<group>";
+		};
+		B5E045232AC20F2700481109 /* Content Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				B5E045242AC20F4400481109 /* ContentTransition_Intro.swift */,
+			);
+			path = "Content Transitions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -687,6 +698,7 @@
 				B58BA9D12A94D90C00186CA2 /* Scope_ParentAndChildren.swift in Sources */,
 				B5411C842AA49142003C18A2 /* Spring_BledDuration.swift in Sources */,
 				B5AD57902AA88F9600FC60AE /* Spring Options Delay.swift in Sources */,
+				B5E045252AC20F4400481109 /* ContentTransition_Intro.swift in Sources */,
 				B5AD57942AA8974700FC60AE /* Spring_Options_Repeating.swift in Sources */,
 				B58BA9DB2A95FC3D00186CA2 /* Scope_WithAnimation_CustomAnimation.swift in Sources */,
 				B58BA9E12A96051E00186CA2 /* Scope_WithAnimation_Sequencing.swift in Sources */,
