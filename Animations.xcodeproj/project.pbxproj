@@ -114,6 +114,7 @@
 		B5AE412B2AB3148A000E21D8 /* Combining_MoveAndScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE412A2AB3148A000E21D8 /* Combining_MoveAndScale.swift */; };
 		B5AE412D2AB316EF000E21D8 /* Combining_ThreeEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE412C2AB316EF000E21D8 /* Combining_ThreeEffects.swift */; };
 		B5AE41302AB31B29000E21D8 /* ZStack_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE412F2AB31B29000E21D8 /* ZStack_Problem.swift */; };
+		B5C3FEE02AC4CC6A0055694C /* Exercise3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3FEDF2AC4CC6A0055694C /* Exercise3.swift */; };
 		B5E045252AC20F4400481109 /* ContentTransition_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E045242AC20F4400481109 /* ContentTransition_Intro.swift */; };
 /* End PBXBuildFile section */
 
@@ -227,6 +228,7 @@
 		B5AE412A2AB3148A000E21D8 /* Combining_MoveAndScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combining_MoveAndScale.swift; sourceTree = "<group>"; };
 		B5AE412C2AB316EF000E21D8 /* Combining_ThreeEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combining_ThreeEffects.swift; sourceTree = "<group>"; };
 		B5AE412F2AB31B29000E21D8 /* ZStack_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Problem.swift; sourceTree = "<group>"; };
+		B5C3FEDF2AC4CC6A0055694C /* Exercise3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise3.swift; sourceTree = "<group>"; };
 		B5E045242AC20F4400481109 /* ContentTransition_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTransition_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -537,6 +539,7 @@
 			isa = PBXGroup;
 			children = (
 				B5E045242AC20F4400481109 /* ContentTransition_Intro.swift */,
+				B5C3FEDF2AC4CC6A0055694C /* Exercise3.swift */,
 			);
 			path = "Content Transitions";
 			sourceTree = "<group>";
@@ -688,6 +691,7 @@
 				B58BAA132A9B5CC000186CA2 /* Challenge6.swift in Sources */,
 				B5ADF2E52A671E52009AEC76 /* AnimationsApp.swift in Sources */,
 				B5411C822AA4771B003C18A2 /* Spring_Response.swift in Sources */,
+				B5C3FEE02AC4CC6A0055694C /* Exercise3.swift in Sources */,
 				B5411C7C2AA3BA2A003C18A2 /* SubtitleText.swift in Sources */,
 				B5ADF33E2A7A60A9009AEC76 /* Trigger_Gesture_Drag.swift in Sources */,
 				B5411C862AA500D3003C18A2 /* Interactive_Comparsion.swift in Sources */,
